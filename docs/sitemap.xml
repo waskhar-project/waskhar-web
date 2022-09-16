@@ -2,10 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://waskhar-project.github.io/waskhar-web/posts/articulo-01-evaluacion-de-bpms/</loc>
+    <lastmod>2022-09-16T19:46:31+02:00</lastmod>
+  </url><url>
+    <loc>https://waskhar-project.github.io/waskhar-web/posts/</loc>
+    <lastmod>2022-09-16T19:46:31+02:00</lastmod>
+  </url><url>
+    <loc>https://waskhar-project.github.io/waskhar-web/</loc>
+    <lastmod>2022-09-16T19:46:31+02:00</lastmod>
+  </url><url>
     <loc>https://waskhar-project.github.io/waskhar-web/categories/</loc>
   </url><url>
     <loc>https://waskhar-project.github.io/waskhar-web/tags/</loc>
-  </url><url>
-    <loc>https://waskhar-project.github.io/waskhar-web/</loc>
   </url>
 </urlset>
