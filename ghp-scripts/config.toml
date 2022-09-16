@@ -1,0 +1,67 @@
+baseURL = "https://waskhar-project.github.io/waskhar-web/"
+languageCode = "en-us"
+title = "Waskhar Project"
+theme = "hugo-theme-cactus"
+publishDir = "../ghp-content/docs"
+#copyright = "Roger Carhuatocto"
+#disqusShortname = "username"
+#googleAnalytics = ""
+paginate = 10
+#summaryLength = 2
+
+[params]
+  colortheme = "classic"                      # dark, light, white, or classic
+  rss = true                                  # generate rss feed. default value is false
+  googleAnalyticsAsync = true                 # use asynchronous tracking. Synchronous tracking by default
+  description = "Proyecto de digitalización y mejora de la trazabilidad a lo largo de la cadena de suministro de la Madera."
+  #mainSection = "posts"                      # your main section
+  showAllPostsOnHomePage = false              # default
+  postsOnHomePage = 10                        # this option will be ignored if showAllPostsOnHomePage is set to true
+  tagsOverview = true                         # show tags overview by default.
+  showProjectsList = false                    # show projects list by default (if projects data file exists).
+  projectsUrl = "https://github.com/chilcano" # title link for projects list
+  dateFormat = "2006-01-02"
+  # Post page settings
+  show_updated = false 
+  [params.comments]
+    enabled = true 
+    engine = "disqus"                         # more supported engines will be added.
+
+[[params.social]]
+  name = "github"
+  link = "https://github.com/waskhar-project"
+[[params.social]]
+  name = "twitter"
+  ink = "https://twitter.com/chilcano"  
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+
+[[menu.main]]
+  url = "/"
+  name = "Home"
+  weight = 1
+[[menu.main]]
+  url = "/posts/"
+  name = "Posts"
+  weight = 2
+[[menu.main]]
+  url = "/tags"
+  name = "Tags"
+  weight = 3
+[[menu.main]]
+  url = "/about/"
+  name = "About"
+  weight = 4
+
+[[menu.icon]]
+  url = "https://github.com/waskhar-project/"
+  name = "fab fa-github"
+  weight = 1
+[[menu.icon]]
+  url = "https://twitter.com/chilcano/"
+  name = "fab fa-twitter"
+  weight = 2
